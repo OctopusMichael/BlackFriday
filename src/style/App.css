@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: white;
+}
+
+#rectangleG {
+  background-image: url(../images/iconos/RectangleG.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
