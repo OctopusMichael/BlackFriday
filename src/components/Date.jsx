@@ -3,6 +3,7 @@ import rectangleB from "../images/iconos/rectangleB.svg";
 import reward from "../images/iconos/reward.svg";
 import external from "../images/iconos/EXTERNAL.svg";
 import externalB from "../images/iconos/EXTERNALBlack.svg";
+import book from "../images/iconos/book.svg";
 
 const Date = () => {
   return (
@@ -36,7 +37,7 @@ const Date = () => {
           </div>
         </div>
 
-        <div className="  ">  
+        <div className="  ">
           <h1 className="font-bold">Time-Zone - UTC</h1>
         </div>
         <img className="absolute bottom-0 right-0" src={rectangleB} alt="" />
@@ -56,7 +57,7 @@ const Date = () => {
       </div>
       <div className="bg-white w-[330px] h-[70px] mx-auto rounded-[25px] relative">
         <div className=" flex py-5 gap-5 px-10">
-          <img src={reward} alt="icon reward" />
+          <img src={book} alt="icon book" />
           <h1 className="font-bold text-[20px]">Discount Rules</h1>
         </div>
         <div className="absolute -top-[0px] right-0 h-[35px] w-[35px] bg-[#000000] rounded-full flex justify-center items-center ">
