@@ -7,7 +7,7 @@ import book from "../images/iconos/book.svg";
 
 const Date = () => {
   return (
-    <section className="bg-grayLight  w-[350px] mx-auto rounded-[45px] pb-3 flex flex-col gap-2 mt-[50px]">
+    <section className="bg-grayLight  w-[350px] mx-auto rounded-[45px] pb-3 flex flex-col gap-2 mt-[50px] md:mt-5">
       <div
         id="rectangleG"
         className="  flex flex-col justify-between  w-[350px] h-[300px] mx-auto py-5 px-10 relative"

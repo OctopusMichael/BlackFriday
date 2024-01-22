@@ -7,19 +7,19 @@ import translateIcon from "../images/iconos/translate.svg";
 
 const Content = () => {
   return (
-    <section className="">
+    <section className="lg:absolute lg:bottom-[0px] lg:left-[50px]    ">
       <div className=" flex flex-col justify-center items-center gap-5 px-5 ">
         <img className="" src={blackFriday} alt="blackFriday Logo" />
       </div>
       <div className="flex flex-row-reverse relative ">
-        <div className=" absolute -top-[80px] left-[25px]  bg-grayLight flex flex-col   justify-between items-center rounded-[50px] p-1 h-[120px]">
+        <div className=" absolute -top-[80px] left-[25px]   lg:-top-[30px]  lg:left-0 bg-grayLight flex flex-col   justify-between items-center rounded-[50px] p-1 h-[120px]">
           <h1 className="text-gray-500 ">Eng</h1>
           <h1 className="text-gray-500 ">|</h1>
           <div className="bg-white  h-[60px] rounded-[50px]  flex justify-center items-center w-[50px] ">
             <img src={translateIcon} alt="Translate Icon" />
           </div>
         </div>
-        <div className="w-[250px]    flex items-center gap-5 ">
+        <div className="w-[250px] flex items-center gap-5 lg:mt-[50px] ">
           <p className="font-bold text-[13px]">
             The 1st Paper Anime <br /> Costume on Shopify
           </p>

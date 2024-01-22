@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background: white;
   font-family: "Outfit", sans-serif;
 }
 

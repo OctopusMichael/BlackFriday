@@ -7,15 +7,14 @@ import Hero from "./components/Hero";
 function App() {
   return (
     <>
-      <div className="max-w-[500px] mx-auto flex flex-col ">
+      <div className=" max-w-[1440px]  h-auto  mx-auto lg:flex gap-5 ">
         <header>
           <Hero />
         </header>
         <main>
-          <Content />
           <Date />
+          <Footer />
         </main>
-        <Footer />
       </div>
     </>
   );
